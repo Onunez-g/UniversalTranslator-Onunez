@@ -21,3 +21,7 @@ Each column will be separated by a ***-***
 - .NET Core 2.2
 - Visual Studio Community 2017 or newer
 - [OPTIONAL] Visual Studio Code
+
+## CRC Cards
+
+![CRC Card](https://github.com/Onunez-g/UniversalTranslator-Onunez/blob/master/CRC.jpg)

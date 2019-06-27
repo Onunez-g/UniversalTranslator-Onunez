@@ -9,6 +9,6 @@ build_job:
     - tags
   script:
     - 'echo building...'
-    - 'cd ConsoleArgsParser'
-    - 'dotnet restore' 
+    - 'cd UniversalTranslator'
+    - 'dotnet restore'
     - 'dotnet build -c release'

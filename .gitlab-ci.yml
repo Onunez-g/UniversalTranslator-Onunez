@@ -1,0 +1,14 @@
+image: microsoft/dotnet:latest
+
+stages:
+  - build
+
+build_job:
+  stage: build
+  except:
+    - tags
+  script:
+    - 'echo building...'
+    - 'cd ConsoleArgsParser'
+    - 'dotnet restore' 
+    - 'dotnet build -c release'

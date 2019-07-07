@@ -39,6 +39,10 @@ namespace UniversalTranslator
             }
             return list;
         }
+        /// <summary>
+        /// Converts the value depending on the actual and result temperature unit
+        /// </summary>
+        /// <param name="temps">List of temperatures passed by ref</param>
         public void ConvertValues(ref List<Temperature> temps)
         {
             Converter c = new Converter();
@@ -81,6 +85,11 @@ namespace UniversalTranslator
                 }
             }
         }
+        /// <summary>
+        /// Overwrites the file with an Extra column: the result
+        /// </summary>
+        /// <param name="temps">List of temperatures</param>
+        /// <param name="path">Path to write the file</param>
         public void WriteTemperatureFile(List<Temperature> temps, string path)
         {
             try

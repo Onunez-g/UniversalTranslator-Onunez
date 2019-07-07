@@ -24,4 +24,8 @@ Each column will be separated by a ***-***
 
 ## CRC Cards
 
-![CRC Card](https://github.com/Onunez-g/UniversalTranslator-Onunez/blob/master/CRC.jpg)
+![CRC Card](https://github.com/Onunez-g/UniversalTranslator-Onunez/blob/master/CRC.png)
+
+## Class Diagram
+
+![Class Diagram](https://github.com/Onunez-g/UniversalTranslator-Onunez/blob/master/ClassDiagram.jpg)
